@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "From the Rail",
+      "hasCanvas": false,
+      "bodyTextLen": 361,
+      "bodyTextHash": "658bfb3b4b9ca5082deed6c6928a618d104d7263c22d0702658a6d3fdb12ab58",
+      "bodyTextPrefix": "THE FRONT SEAT From the Rail Lysander does not take orders. He s",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "From the Rail",
+      "hasCanvas": false,
+      "bodyTextLen": 361,
+      "bodyTextHash": "658bfb3b4b9ca5082deed6c6928a618d104d7263c22d0702658a6d3fdb12ab58",
+      "bodyTextPrefix": "THE FRONT SEAT From the Rail Lysander does not take orders. He s",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

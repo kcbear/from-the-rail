@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #140e0b;
+  --color-surface: #2a1d16;
+  --color-fg: #f3ead7;
+  --color-muted: #b5a08a;
+  --color-primary: #e0b15a;
+  --color-blood: #c44536;
+  --font-display: "Cinzel", "Palatino Linotype", Palatino, serif;
+  --font-sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    overflow: hidden;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+.pit-vignette {
+  box-shadow: inset 0 0 120px rgb(20 14 11 / 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pit-vignette {
+    box-shadow: none;
+  }
+}
